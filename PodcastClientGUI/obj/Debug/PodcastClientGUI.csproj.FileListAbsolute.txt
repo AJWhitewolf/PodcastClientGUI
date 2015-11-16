@@ -1,0 +1,14 @@
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\bin\Debug\PodcastClientGUI.exe
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\bin\Debug\PodcastClientGUI.pdb
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\PodcastClientGUI.csprojResolveAssemblyReference.cache
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\Interop.WMPLib.dll
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\PodcastClientGUI.csproj.ResolveComReference.cache
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\PodcastClientGUI.Form1.resources
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\PodcastClientGUI.Properties.Resources.resources
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\PodcastClientGUI.csproj.GenerateResource.Cache
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\PodcastClientGUI.exe
+c:\users\adunigan\documents\visual studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\PodcastClientGUI.pdb
+C:\Users\ADunigan\Documents\Visual Studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\bin\Debug\Interop.WMPLib.dll
+C:\Users\ADunigan\Documents\Visual Studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ADunigan\Documents\Visual Studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ADunigan\Documents\Visual Studio 2013\Projects\PodcastClientGUI\PodcastClientGUI\obj\Debug\PodcastClientGUI.SubscriptionPopUp.resources
