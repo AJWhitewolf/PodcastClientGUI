@@ -28,7 +28,7 @@ namespace PodcastClientGUI
             Subs = new PodcastSubscriptions(SubsFilePath);
             SubList = Subs.GetSubscriptions();
             SubsDocument = Subs.GetSubsDoc();
-            DownloadDirectory = @"C:\Users\ADunigan\Downloads\Podcasts\";
+            DownloadDirectory = @"C:\Users\DunigA01\Downloads\Podcasts";
         }
         public XDocument GetSubsDocument()
         {

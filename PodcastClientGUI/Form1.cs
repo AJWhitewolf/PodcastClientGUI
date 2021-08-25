@@ -106,11 +106,21 @@ namespace PodcastClientGUI
             {
                 btnDownload.Enabled = false;
                 btnStream.Text = "Stream";
+                btnStream.Enabled = true;
             }
             else
             {
-                btnDownload.Enabled = true;
-                btnStream.Text = "Play";
+                if (String.IsNullOrEmpty(Manager.SelectedItem.ItemUrl))
+                {
+                    btnDownload.Enabled = false;
+                    btnStream.Enabled = false;
+                }
+                else
+                {
+                    btnDownload.Enabled = true;
+                    btnStream.Text = "Play";
+                    btnStream.Enabled = true;
+                }
             }
         }
 

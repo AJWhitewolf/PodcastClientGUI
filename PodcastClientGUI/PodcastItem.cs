@@ -20,28 +20,40 @@ namespace PodcastClientGUI
 
         public PodcastItem(XElement xItem)
         {
-            ItemUrl = xItem.Element("enclosure").Attribute("url").Value;
+            var enclosure = xItem.Element("enclosure");
+            if (enclosure != null)
+            {
+                ItemUrl = enclosure.Attribute("url").Value;
+            }
             ItemLink = xItem.Element("link").Value;
             ItemTitle = xItem.Element("title").Value;
             ItemPubDate = xItem.Element("pubDate").Value;
             ItemDescription = xItem.Element("description").Value;
             
             var parent = xItem.Parent.Element("title").Value;
-            Uri uri = new Uri(ItemUrl);
-            if (Directory.Exists(Form1.Manager.DownloadDirectory + parent))
+
+            if (!String.IsNullOrEmpty(ItemUrl))
             {
-                if (
-                    File.Exists(Form1.Manager.DownloadDirectory + parent + "\\" +
-                                Path.GetFileName(uri.LocalPath)))
+                Uri uri = new Uri(ItemUrl);
+                if (Directory.Exists(Form1.Manager.DownloadDirectory + parent))
                 {
-                    Downloaded = true;
-                    DownloadedLocation = Form1.Manager.DownloadDirectory + parent + "\\" +
-                                         Path.GetFileName(uri.LocalPath);
+                    if (
+                        File.Exists(Form1.Manager.DownloadDirectory + parent + "\\" +
+                                    Path.GetFileName(uri.LocalPath)))
+                    {
+                        Downloaded = true;
+                        DownloadedLocation = Form1.Manager.DownloadDirectory + parent + "\\" +
+                                             Path.GetFileName(uri.LocalPath);
+                    }
+                    else
+                    {
+                        Downloaded = false;
+                    }
                 }
-                else
-                {
-                    Downloaded = false;
-                }
+            }
+            else
+            {
+                Downloaded = false;
             }
         }
     }
